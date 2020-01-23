@@ -15,7 +15,7 @@ function Index() {
   return (
     <main>
       <Helmet>
-        <title>Gatsby + Node.js (TypeScript) API</title>
+        <title>Gatsby + Node.js (TypeScript) API - Title Updated</title>
       </Helmet>
       <h1>Gatsby + Node.js (TypeScript) API</h1>
       <h2>
@@ -29,6 +29,8 @@ function Index() {
         </a>
         !
       </h2>
+      <h5>And here is an image</h5>
+      <img src="https://images.unsplash.com/photo-1518208606308-e61fb98ded5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60"/>
       <p>
         <a
           href="https://github.com/zeit/now-examples/blob/master/gatsby-functions"
@@ -49,6 +51,7 @@ function Index() {
       <br />
       <h2>The date according to Node.js (TypeScript) is:</h2>
       <p>{date ? date : 'Loading date...'}</p>
+      <h6>This is a test.</h6>
     </main>
   );
 }
